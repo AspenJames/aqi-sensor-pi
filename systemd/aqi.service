@@ -1,0 +1,11 @@
+[Unit]
+Description=Air Quality Sensor
+After=network-online.target
+
+[Service]
+User=aspen
+Restart=on-failure
+ExecStart=/usr/bin/node /home/aspen/sensor/index.js
+
+[Install]
+WantedBy=multi-user.target
