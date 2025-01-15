@@ -1,7 +1,7 @@
 # Raspberry Pi Air Quality Sensor
 
 Small Node.js server to read [particulate matter
-levels](https://www.epa.gov/pm-pollution/particulate-matter-pm-basics) from a
+levels](https://www.epa.gov/pm-pollution/particulate-matter-pm-basics) from an
 [SDS011 sensor](https://aqicn.org/sensor/sds011/), and emit to
 [Prometheus](https://prometheus.io/).
 
